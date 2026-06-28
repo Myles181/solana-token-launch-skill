@@ -11,8 +11,8 @@ Launching a token on Solana in 2026 involves a sequence of irreversible architec
 | File | Topic |
 |---|---|
 | `skill/launchpad.md` | Pump.fun, Raydium LaunchLab, DAOs.fun, Believe, Bags.fm — decision routing by project type |
-| `skill/token-standard.md` | SPL Classic vs Token-2022, P-Token engine (SIMD-0266), extension selection |
-| `skill/token-standard.md` | Token-2022 extension architecture, incompatibility matrix, routing by asset type |
+| `skill/token-standard.md` | SPL Classic vs Token-2022, P-Token engine (SIMD-0266), extension selection, incompatibility matrix |
+| `skill/resources.md` | Official documentation URLs for every platform and tool covered in this skill |
 | `skill/authorities.md` | Mint authority, freeze authority, revocation vs multisig, Squads setup standards |
 | `skill/tokenomics.md` | Fixed vs mintable supply, decimals, total supply conventions, allocation design, vesting |
 | `skill/liquidity.md` | Raydium CPMM/AMM V4/CLMM, Meteora DLMM, Alpha Vault mechanics, LP burn vs lock |
