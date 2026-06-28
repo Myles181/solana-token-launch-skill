@@ -20,6 +20,7 @@ Launching a token on Solana in 2026 involves a sequence of irreversible architec
 | `skill/resources.md` | Official documentation URLs for every platform and tool covered in this skill |
 | `commands/token-launch-plan.md` | `/token-launch-plan` slash command — generates a personalized launch plan from 5 inputs |
 | `commands/token-audit.md` | `/token-audit` slash command — audits token configuration and outputs a 0–100 risk score with fixes |
+| `commands/launch-day-checklist.md` | `/launch-day-checklist` slash command — generates a timestamped, launchpad-specific launch day checklist |
 
 ## Install
 
@@ -48,6 +49,8 @@ This skill activates when you ask Claude Code about Solana token launches. Claud
 7. `/token-launch-plan` — interactive command that asks 5 questions and generates a complete, personalized launch plan document
 
 8. `/token-audit` — paste your current token configuration and get a 0–100 risk score with a prioritized fix list
+
+9. `/launch-day-checklist` — answer 2 questions and get a timestamped, launchpad-specific checklist to run on launch day
 
 ## Dependencies
 

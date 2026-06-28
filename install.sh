@@ -19,6 +19,7 @@ FILES=(
   "skill/red-flags.md"
   "commands/token-launch-plan.md"
   "commands/token-audit.md"
+  "commands/launch-day-checklist.md"
   "CLAUDE.md"
 )
 
