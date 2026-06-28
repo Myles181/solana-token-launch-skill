@@ -64,7 +64,7 @@ Invoke `agents/token-launch-advisor` for a full advisory session — the agent t
 This skill depends on **solana-dev-skill** for foundational Solana development context (program architecture, account model, transaction structure). Install it first if you don't already have it:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Myles181/solana-dev-skill/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/solana-foundation/solana-dev-skill/main/install.sh | bash
 ```
 
 ## Author
