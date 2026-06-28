@@ -19,6 +19,7 @@ Launching a token on Solana in 2026 involves a sequence of irreversible architec
 | `skill/red-flags.md` | 20 launch anti-patterns with exact on-chain consequences and specific fixes |
 | `skill/resources.md` | Official documentation URLs for every platform and tool covered in this skill |
 | `commands/token-launch-plan.md` | `/token-launch-plan` slash command — generates a personalized launch plan from 5 inputs |
+| `commands/token-audit.md` | `/token-audit` slash command — audits token configuration and outputs a 0–100 risk score with fixes |
 
 ## Install
 
@@ -45,6 +46,8 @@ This skill activates when you ask Claude Code about Solana token launches. Claud
 6. *"I'm launching on Believe — what's the GTM strategy, how do I incentivize scouts, and how does the Alpha Vault work?"*
 
 7. `/token-launch-plan` — interactive command that asks 5 questions and generates a complete, personalized launch plan document
+
+8. `/token-audit` — paste your current token configuration and get a 0–100 risk score with a prioritized fix list
 
 ## Dependencies
 
