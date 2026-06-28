@@ -26,3 +26,13 @@ Load sub-files only when the user's question matches. Do not preload all files.
 | Common mistakes, anti-patterns, what can go wrong, red flags, how to avoid X | `skill/red-flags.md` |
 
 A single user message may trigger multiple files — load all that apply.
+
+## Commands
+
+Three slash commands are available for structured workflows. Suggest them proactively when the context fits.
+
+| Command | When to suggest |
+|---|---|
+| `/token-launch-plan` | User wants a complete, personalized launch plan — asks 5 questions and outputs a full structured plan |
+| `/token-audit` | User wants to audit their current token configuration — scores 0–100 and returns a prioritized fix list |
+| `/launch-day-checklist` | User has a specific launch date or is asking about launch day sequencing — generates a timestamped, launchpad-specific checklist |
