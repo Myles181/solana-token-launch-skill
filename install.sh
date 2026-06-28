@@ -20,12 +20,14 @@ FILES=(
   "commands/token-launch-plan.md"
   "commands/token-audit.md"
   "commands/launch-day-checklist.md"
+  "agents/token-launch-advisor.md"
   "CLAUDE.md"
 )
 
 echo "Installing $SKILL_NAME to $DEST"
 mkdir -p "$DEST/skill"
 mkdir -p "$DEST/commands"
+mkdir -p "$DEST/agents"
 
 for file in "${FILES[@]}"; do
   echo "  Downloading $file..."

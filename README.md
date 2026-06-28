@@ -21,6 +21,7 @@ Launching a token on Solana in 2026 involves a sequence of irreversible architec
 | `commands/token-launch-plan.md` | `/token-launch-plan` slash command — generates a personalized launch plan from 5 inputs |
 | `commands/token-audit.md` | `/token-audit` slash command — audits token configuration and outputs a 0–100 risk score with fixes |
 | `commands/launch-day-checklist.md` | `/launch-day-checklist` slash command — generates a timestamped, launchpad-specific launch day checklist |
+| `agents/token-launch-advisor.md` | Persistent session agent — acts as a technical co-founder for the full launch lifecycle |
 
 ## Install
 
@@ -51,6 +52,9 @@ This skill activates when you ask Claude Code about Solana token launches. Claud
 8. `/token-audit` — paste your current token configuration and get a 0–100 risk score with a prioritized fix list
 
 9. `/launch-day-checklist` — answer 2 questions and get a timestamped, launchpad-specific checklist to run on launch day
+
+**Or use the persistent session agent:**
+Invoke `agents/token-launch-advisor` for a full advisory session — the agent tracks your project type and session context across every question, routes to the right skill file automatically, and interrupts immediately if you describe a configuration that matches a known anti-pattern.
 
 ## Dependencies
 
