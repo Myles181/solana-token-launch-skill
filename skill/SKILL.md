@@ -23,5 +23,6 @@ Load sub-files only when the user's question matches. Do not preload all files.
 | Liquidity pools, LP tokens, seeding liquidity, CPMM, CLMM, concentrated liquidity | `skill/liquidity.md` |
 | Launch day execution, GTM strategy, community building, buy bots, KOLs, post-launch | `skill/gtm.md` |
 | Documentation links, official docs, where to find a specific tool or platform | `skill/resources.md` |
+| Common mistakes, anti-patterns, what can go wrong, red flags, how to avoid X | `skill/red-flags.md` |
 
 A single user message may trigger multiple files — load all that apply.
