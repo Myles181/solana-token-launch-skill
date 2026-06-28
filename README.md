@@ -22,6 +22,9 @@ Launching a token on Solana in 2026 involves a sequence of irreversible architec
 | `commands/token-audit.md` | `/token-audit` slash command — audits token configuration and outputs a 0–100 risk score with fixes |
 | `commands/launch-day-checklist.md` | `/launch-day-checklist` slash command — generates a timestamped, launchpad-specific launch day checklist |
 | `agents/token-launch-advisor.md` | Persistent session agent — acts as a technical co-founder for the full launch lifecycle |
+| `rules/safety.md` | Non-overridable safety rules — hot wallet authority, LP locks, freeze warnings, wash trading, legal deflection |
+| `rules/defaults.md` | Default assumptions for unspecified inputs — project type, standard, supply, pool, LP strategy, vesting, multisig |
+| `rules/scope.md` | Skill coverage boundaries — what's in scope, what defers to solana-dev-skill / crypto-legal-skill, what's out of scope |
 
 ## Install
 
