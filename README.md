@@ -67,6 +67,10 @@ This skill depends on **solana-dev-skill** for foundational Solana development c
 curl -sSL https://raw.githubusercontent.com/Myles181/solana-dev-skill/main/install.sh | bash
 ```
 
+## Author
+
+Built by [Myles](https://github.com/Myles181)
+
 ## License
 
 MIT
