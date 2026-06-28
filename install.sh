@@ -38,6 +38,13 @@ for file in "${FILES[@]}"; do
   curl -sSL "$RAW/$file" -o "$DEST/$file"
 done
 
+echo "Registering slash commands in ~/.claude/commands/..."
+mkdir -p "$HOME/.claude/commands"
+cp "$DEST/commands/token-launch-plan.md"    "$HOME/.claude/commands/token-launch-plan.md"
+cp "$DEST/commands/token-audit.md"          "$HOME/.claude/commands/token-audit.md"
+cp "$DEST/commands/launch-day-checklist.md" "$HOME/.claude/commands/launch-day-checklist.md"
+echo "  /token-launch-plan, /token-audit, /launch-day-checklist registered"
+
 echo ""
 echo "Done. Add the following to your project's CLAUDE.md to activate:"
 echo ""
