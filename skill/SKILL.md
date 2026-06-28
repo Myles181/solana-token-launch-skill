@@ -22,5 +22,6 @@ Load sub-files only when the user's question matches. Do not preload all files.
 | Total supply, decimals, allocation, vesting schedules, cliff, unlock | `skill/tokenomics.md` |
 | Liquidity pools, LP tokens, seeding liquidity, CPMM, CLMM, concentrated liquidity | `skill/liquidity.md` |
 | Launch day execution, GTM strategy, community building, buy bots, KOLs, post-launch | `skill/gtm.md` |
+| Documentation links, official docs, where to find a specific tool or platform | `skill/resources.md` |
 
 A single user message may trigger multiple files — load all that apply.
