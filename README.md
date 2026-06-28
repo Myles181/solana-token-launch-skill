@@ -12,11 +12,13 @@ Launching a token on Solana in 2026 involves a sequence of irreversible architec
 |---|---|
 | `skill/launchpad.md` | Pump.fun, Raydium LaunchLab, DAOs.fun, Believe, Bags.fm — decision routing by project type |
 | `skill/token-standard.md` | SPL Classic vs Token-2022, P-Token engine (SIMD-0266), extension selection, incompatibility matrix |
-| `skill/resources.md` | Official documentation URLs for every platform and tool covered in this skill |
 | `skill/authorities.md` | Mint authority, freeze authority, revocation vs multisig, Squads setup standards |
 | `skill/tokenomics.md` | Fixed vs mintable supply, decimals, total supply conventions, allocation design, vesting |
 | `skill/liquidity.md` | Raydium CPMM/AMM V4/CLMM, Meteora DLMM, Alpha Vault mechanics, LP burn vs lock |
 | `skill/gtm.md` | T-minus checklist, community infrastructure, launch day sequencing, KOL due diligence, post-launch |
+| `skill/red-flags.md` | 20 launch anti-patterns with exact on-chain consequences and specific fixes |
+| `skill/resources.md` | Official documentation URLs for every platform and tool covered in this skill |
+| `commands/token-launch-plan.md` | `/token-launch-plan` slash command — generates a personalized launch plan from 5 inputs |
 
 ## Install
 
@@ -41,6 +43,8 @@ This skill activates when you ask Claude Code about Solana token launches. Claud
 5. *"What's the right total supply and team allocation for a DeFi utility token, and how should I structure vesting?"*
 
 6. *"I'm launching on Believe — what's the GTM strategy, how do I incentivize scouts, and how does the Alpha Vault work?"*
+
+7. `/token-launch-plan` — interactive command that asks 5 questions and generates a complete, personalized launch plan document
 
 ## Dependencies
 

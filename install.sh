@@ -16,11 +16,14 @@ FILES=(
   "skill/liquidity.md"
   "skill/gtm.md"
   "skill/resources.md"
+  "skill/red-flags.md"
+  "commands/token-launch-plan.md"
   "CLAUDE.md"
 )
 
 echo "Installing $SKILL_NAME to $DEST"
 mkdir -p "$DEST/skill"
+mkdir -p "$DEST/commands"
 
 for file in "${FILES[@]}"; do
   echo "  Downloading $file..."
